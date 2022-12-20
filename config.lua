@@ -4,13 +4,13 @@ Loc = {}
 
 Config = {
 	Debug = false, -- enable debug mode
-	Blips = true, -- Enable Blips?
+	Blips = false, -- Enable Blips?
 	BlipNamer = false, -- Enable to Name Blips different things, disable if you already have too many blips as this will group them together
 	img = "qb-inventory/html/images/", --Set this to the image directory of your inventory script or "nil" if using newer qb-menu
 	CheckMarks = true, -- shows checkmarks if user has the materials to craft an item, set false if causing lag.
 	Lan = "en", -- Pick your language here
 	JimMenu = true, -- Set this to true if using update qb-menu with icons
-	JimShops = false, -- Set this to true if using jim-shops
+	JimShops = true, -- Set this to true if using jim-shops
 	Job = nil, -- set this to a job role eg "miner" or nil for no job
 	Notify = "qb",
 	K4MB1 = false,
@@ -303,6 +303,7 @@ Crafting = {
 		{ ["steel"] = { ["ironore"] = 1, ["carbon"] = 1 } },
 		{ ["aluminum"] = { ["can"] = 2, }, ['amount'] = 3 },
 		{ ["glass"] = { ["bottle"] = 2, }, ['amount'] = 2 },
+		{ ["carbon_steel"] = { ["carbon"] = 5, ['steel'] = 2 } },
 	},
 	GemCut = {
 		{ ["emerald"] = { ["uncut_emerald"] = 1, } },
