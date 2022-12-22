@@ -282,19 +282,11 @@ Config = {
 			{ name = "sandwich", price = 150, amount = 100, info = {}, type = "item", slot = 2, },
 			{ name = "bandage", price = 100, amount = 50, info = {}, type = "item", slot = 3, },
 			{ name = "weapon_flashlight", price = 25, amount = 100, info = {}, type = "item", slot = 4, },
-<<<<<<< HEAD
 			{ name = "goldpan", price = 50, amount = 100, info = {}, type = "item", slot = 5, },
 			{ name = "pickaxe",	price = 1500, amount = 100, info = {}, type = "item", slot = 6, },
 			{ name = "miningdrill",	price = 50000, amount = 5, info = {}, type = "item", slot = 7, },
 			{ name = "mininglaser",	price = 100000, amount = 5, info = {}, type = "item", slot = 8, },
 			{ name = "drillbit", price = 50, amount = 100, info = {}, type = "item", slot = 9, },
-=======
-			{ name = "goldpan", price = 0, amount = 100, info = {}, type = "item", slot = 5, },
-			{ name = "pickaxe",	price = 1500, amount = 100, info = {}, type = "item", slot = 6, },
-			{ name = "miningdrill",	price = 50000, amount = 5, info = {}, type = "item", slot = 7, },
-			{ name = "mininglaser",	price = 100000, amount = 5, info = {}, type = "item", slot = 8, },
-			{ name = "drillbit", price = 0, amount = 100, info = {}, type = "item", slot = 9, },
->>>>>>> 3d1273dcce162e60e500d67dcda92ca6554f43cc
 		},
 	},
 }
