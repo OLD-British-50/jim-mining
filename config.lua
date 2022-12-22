@@ -278,15 +278,15 @@ Config = {
 	Items = {
 		label = "Mining Store",  slots = 9,
 		items = {
-			{ name = "water_bottle", price = 0, amount = 100, info = {}, type = "item", slot = 1, },
-			{ name = "sandwich", price = 0, amount = 250, info = {}, type = "item", slot = 2, },
-			{ name = "bandage", price = 0, amount = 100, info = {}, type = "item", slot = 3, },
-			{ name = "weapon_flashlight", price = 0, amount = 100, info = {}, type = "item", slot = 4, },
-			{ name = "goldpan", price = 0, amount = 100, info = {}, type = "item", slot = 5, },
-			{ name = "pickaxe",	price = 100, amount = 100, info = {}, type = "item", slot = 6, },
-			{ name = "miningdrill",	price = 10000, amount = 50, info = {}, type = "item", slot = 7, },
-			{ name = "mininglaser",	price = 60000, amount = 5, info = {}, type = "item", slot = 8, },
-			{ name = "drillbit", price = 0, amount = 100, info = {}, type = "item", slot = 9, },
+			{ name = "water_bottle", price = 150, amount = 100, info = {}, type = "item", slot = 1, },
+			{ name = "sandwich", price = 150, amount = 100, info = {}, type = "item", slot = 2, },
+			{ name = "bandage", price = 100, amount = 50, info = {}, type = "item", slot = 3, },
+			{ name = "weapon_flashlight", price = 25, amount = 100, info = {}, type = "item", slot = 4, },
+			{ name = "goldpan", price = 50, amount = 100, info = {}, type = "item", slot = 5, },
+			{ name = "pickaxe",	price = 1500, amount = 100, info = {}, type = "item", slot = 6, },
+			{ name = "miningdrill",	price = 50000, amount = 5, info = {}, type = "item", slot = 7, },
+			{ name = "mininglaser",	price = 100000, amount = 5, info = {}, type = "item", slot = 8, },
+			{ name = "drillbit", price = 50, amount = 100, info = {}, type = "item", slot = 9, },
 		},
 	},
 }
@@ -303,7 +303,7 @@ Crafting = {
 		{ ["steel"] = { ["ironore"] = 1, ["carbon"] = 1 } },
 		{ ["aluminum"] = { ["can"] = 2, }, ['amount'] = 3 },
 		{ ["glass"] = { ["bottle"] = 2, }, ['amount'] = 2 },
-		{ ["carbon_steel"] = { ["carbon"] = 5, ['steel'] = 2 } },
+		{ ["carbon_steel"] = { ["carbon"] = 5, ['steel'] = 10 } },
 	},
 	GemCut = {
 		{ ["emerald"] = { ["uncut_emerald"] = 1, } },
