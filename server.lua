@@ -24,6 +24,7 @@ RegisterServerEvent('jim-mining:MineReward', function()
     local randomChance = math.random(1, 3)
     Player.Functions.AddItem('stone', randomChance, false, {["quality"] = nil})
     TriggerClientEvent("inventory:client:ItemBox", source, QBCore.Shared.Items["stone"], "add", randomChance)
+	TriggerClientEvent('ak4y-battlepass:addtaskcount:standart', source, 2, 1)
 end)
 
 --Stone Cracking Checking Triggers
