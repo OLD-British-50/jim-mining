@@ -152,11 +152,11 @@ Config = {
 
 ------------------------------------------------------------
 	SellItems = { -- Selling Prices
-		['copperore'] = 100,
-		['goldore'] = 100,
-		['silverore'] = 100,
-		['ironore'] = 100,
-		['carbon'] = 100,
+		['copperore'] = 150,
+		['goldore'] = 150,
+		['silverore'] = 150,
+		['ironore'] = 150,
+		['carbon'] = 250,
 
 		['goldingot'] = 120,
 		['silveringot'] = 120,
