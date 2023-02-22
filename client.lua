@@ -339,7 +339,7 @@ RegisterNetEvent('jim-mining:MineOre:Pick', function(data)
 		unloadPtfxDict("core")
 		unloadAnimDict(dict)
 		TriggerServerEvent('jim-mining:MineReward')
-		if math.random(1,10) >= 9 then
+		if math.random(1,100) >= 95 then
 			local breakId = GetSoundId()
 			PlaySoundFromEntity(breakId, "Drill_Pin_Break", PlayerPedId(), "DLC_HEIST_FLEECA_SOUNDSET", 1, 0)
 			toggleItem(false, "pickaxe", 1)
