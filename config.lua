@@ -6,7 +6,7 @@ Config = {
 	Debug = false, -- enable debug mode
 	Blips = false, -- Enable Blips?
 	BlipNamer = false, -- Enable to Name Blips different things, disable if you already have too many blips as this will group them together
-	img = "qb-inventory/html/images/", --Set this to the image directory of your inventory script or "nil" if using newer qb-menu
+	img = "lj-inventory/html/images/", --Set this to the image directory of your inventory script or "nil" if using newer qb-menu
 	CheckMarks = true, -- shows checkmarks if user has the materials to craft an item, set false if causing lag.
 	Lan = "en", -- Pick your language here
 	JimMenu = true, -- Set this to true if using update qb-menu with icons
@@ -17,7 +17,7 @@ Config = {
 	K4MB1Only = false,
 
 	--Lighting for mines
-	HangingLights = false, -- if false, will spawn work lights. if true will spawn hanging lights
+	HangingLights = true, -- if false, will spawn work lights. if true will spawn hanging lights
 
 	Timings = { -- Time it takes to do things
 		["Cracking"] = math.random(9000, 11500),
@@ -158,52 +158,52 @@ Config = {
 		['ironore'] = 100,
 		['carbon'] = 100,
 
-		['goldingot'] = 100,
-		['silveringot'] = 100,
+		['goldingot'] = 120,
+		['silveringot'] = 120,
 
-		['uncut_emerald'] = 100,
-		['uncut_ruby'] = 100,
-		['uncut_diamond'] = 100,
-		['uncut_sapphire'] = 100,
+		['uncut_emerald'] = 140,
+		['uncut_ruby'] = 145,
+		['uncut_diamond'] = 165,
+		['uncut_sapphire'] = 150,
 
-		['emerald'] = 100,
-		['ruby'] = 100,
-		['diamond'] = 100,
-		['sapphire'] = 100,
+		['emerald'] = 175,
+		['ruby'] = 180,
+		['diamond'] = 200,
+		['sapphire'] = 1900,
 
-		['diamond_ring'] = 100,
-		['emerald_ring'] = 100,
-		['ruby_ring'] = 100,
-		['sapphire_ring'] = 100,
-		['diamond_ring_silver'] = 100,
-		['emerald_ring_silver'] = 100,
-		['ruby_ring_silver'] = 100,
-		['sapphire_ring_silver'] = 100,
+		['diamond_ring'] = 250,
+		['emerald_ring'] = 230,
+		['ruby_ring'] = 200,
+		['sapphire_ring'] = 210,
+		['diamond_ring_silver'] = 300,
+		['emerald_ring_silver'] = 290,
+		['ruby_ring_silver'] = 280,
+		['sapphire_ring_silver'] = 270,
 
-		['diamond_necklace'] = 100,
-		['emerald_necklace'] = 100,
-		['ruby_necklace'] = 100,
-		['sapphire_necklace'] = 100,
-		['diamond_necklace_silver'] = 100,
-		['emerald_necklace_silver'] = 100,
-		['ruby_necklace_silver'] = 100,
-		['sapphire_necklace_silver'] = 100,
+		['diamond_necklace'] = 350,
+		['emerald_necklace'] = 340,
+		['ruby_necklace'] = 335,
+		['sapphire_necklace'] = 330,
+		['diamond_necklace_silver'] = 400,
+		['emerald_necklace_silver'] = 390,
+		['ruby_necklace_silver'] = 380,
+		['sapphire_necklace_silver'] = 370,
 
-		['diamond_earring'] = 100,
-		['emerald_earring'] = 100,
-		['ruby_earring'] = 100,
-		['sapphire_earring'] = 100,
-		['diamond_earring_silver'] = 100,
-		['emerald_earring_silver'] = 100,
-		['ruby_earring_silver'] = 100,
-		['sapphire_earring_silver'] = 100,
+		['diamond_earring'] = 250,
+		['emerald_earring'] = 240,
+		['ruby_earring'] = 230,
+		['sapphire_earring'] = 220,
+		['diamond_earring_silver'] = 295,
+		['emerald_earring_silver'] = 285,
+		['ruby_earring_silver'] = 275,
+		['sapphire_earring_silver'] = 265,
 
-		['gold_ring'] = 100,
-		['goldchain'] = 100,
-		['goldearring'] = 100,
-		['silver_ring'] = 100,
-		['silverchain'] = 100,
-		['silverearring'] = 100,
+		['gold_ring'] = 250,
+		['goldchain'] = 250,
+		['goldearring'] = 250,
+		['silver_ring'] = 200,
+		['silverchain'] = 200,
+		['silverearring'] = 200,
 
 	},
 
@@ -283,8 +283,8 @@ Config = {
 			{ name = "bandage", price = 100, amount = 50, info = {}, type = "item", slot = 3, },
 			{ name = "weapon_flashlight", price = 25, amount = 100, info = {}, type = "item", slot = 4, },
 			{ name = "goldpan", price = 50, amount = 100, info = {}, type = "item", slot = 5, },
-			{ name = "pickaxe",	price = 1500, amount = 100, info = {}, type = "item", slot = 6, },
-			{ name = "miningdrill",	price = 50000, amount = 5, info = {}, type = "item", slot = 7, },
+			{ name = "pickaxe",	price = 500, amount = 100, info = {}, type = "item", slot = 6, },
+			{ name = "miningdrill",	price = 25000, amount = 5, info = {}, type = "item", slot = 7, },
 			{ name = "mininglaser",	price = 100000, amount = 5, info = {}, type = "item", slot = 8, },
 			{ name = "drillbit", price = 50, amount = 100, info = {}, type = "item", slot = 9, },
 		},
