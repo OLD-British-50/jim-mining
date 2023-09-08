@@ -6,7 +6,7 @@ Config = {
 	Debug = false, -- enable debug mode
 	Blips = false, -- Enable Blips?
 	BlipNamer = false, -- Enable to Name Blips different things, disable if you already have too many blips as this will group them together
-	img = "lj-inventory/html/images/", --Set this to the image directory of your inventory script or "nil" if using newer qb-menu
+	img = "ps-inventory/html/images/", --Set this to the image directory of your inventory script or "nil" if using newer qb-menu
 	CheckMarks = true, -- shows checkmarks if user has the materials to craft an item, set false if causing lag.
 	Lan = "en", -- Pick your language here
 	JimMenu = true, -- Set this to true if using update qb-menu with icons
@@ -152,58 +152,58 @@ Config = {
 
 ------------------------------------------------------------
 	SellItems = { -- Selling Prices
-		['copperore'] = 150,
-		['goldore'] = 150,
-		['silverore'] = 150,
-		['ironore'] = 150,
-		['carbon'] = 250,
+		['copperore'] = 75,
+		['goldore'] = 75,
+		['silverore'] = 75,
+		['ironore'] = 75,
+		['carbon'] = 125,
 
-		['goldingot'] = 120,
-		['silveringot'] = 120,
+		['goldingot'] = 60,
+		['silveringot'] = 60,
 
-		['uncut_emerald'] = 140,
-		['uncut_ruby'] = 145,
-		['uncut_diamond'] = 165,
-		['uncut_sapphire'] = 150,
+		['uncut_emerald'] = 70,
+		['uncut_ruby'] = 75,
+		['uncut_diamond'] = 80,
+		['uncut_sapphire'] = 75,
 
-		['emerald'] = 175,
-		['ruby'] = 180,
-		['diamond'] = 200,
-		['sapphire'] = 1900,
+		['emerald'] = 88,
+		['ruby'] = 90,
+		['diamond'] = 100,
+		['sapphire'] = 950,
 
-		['diamond_ring'] = 250,
-		['emerald_ring'] = 230,
-		['ruby_ring'] = 200,
-		['sapphire_ring'] = 210,
-		['diamond_ring_silver'] = 300,
-		['emerald_ring_silver'] = 290,
-		['ruby_ring_silver'] = 280,
-		['sapphire_ring_silver'] = 270,
+		['diamond_ring'] = 125,
+		['emerald_ring'] = 115,
+		['ruby_ring'] = 100,
+		['sapphire_ring'] = 105,
+		['diamond_ring_silver'] = 150,
+		['emerald_ring_silver'] = 145,
+		['ruby_ring_silver'] = 135,
+		['sapphire_ring_silver'] = 125,
 
-		['diamond_necklace'] = 350,
-		['emerald_necklace'] = 340,
-		['ruby_necklace'] = 335,
-		['sapphire_necklace'] = 330,
-		['diamond_necklace_silver'] = 400,
-		['emerald_necklace_silver'] = 390,
-		['ruby_necklace_silver'] = 380,
-		['sapphire_necklace_silver'] = 370,
+		['diamond_necklace'] = 175,
+		['emerald_necklace'] = 170,
+		['ruby_necklace'] = 165,
+		['sapphire_necklace'] = 160,
+		['diamond_necklace_silver'] = 200,
+		['emerald_necklace_silver'] = 190,
+		['ruby_necklace_silver'] = 180,
+		['sapphire_necklace_silver'] = 170,
 
-		['diamond_earring'] = 250,
-		['emerald_earring'] = 240,
-		['ruby_earring'] = 230,
-		['sapphire_earring'] = 220,
-		['diamond_earring_silver'] = 295,
-		['emerald_earring_silver'] = 285,
-		['ruby_earring_silver'] = 275,
-		['sapphire_earring_silver'] = 265,
+		['diamond_earring'] = 125,
+		['emerald_earring'] = 120,
+		['ruby_earring'] = 115,
+		['sapphire_earring'] = 110,
+		['diamond_earring_silver'] = 145,
+		['emerald_earring_silver'] = 142,
+		['ruby_earring_silver'] = 135,
+		['sapphire_earring_silver'] = 130,
 
-		['gold_ring'] = 250,
-		['goldchain'] = 250,
-		['goldearring'] = 250,
-		['silver_ring'] = 200,
-		['silverchain'] = 200,
-		['silverearring'] = 200,
+		['gold_ring'] = 125,
+		['goldchain'] = 125,
+		['goldearring'] = 125,
+		['silver_ring'] = 100,
+		['silverchain'] = 100,
+		['silverearring'] = 100,
 
 	},
 
