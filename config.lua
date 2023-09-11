@@ -284,7 +284,7 @@ Config = {
 			{ name = "weapon_flashlight", price = 25, amount = 100, info = {}, type = "item", slot = 4, },
 			{ name = "goldpan", price = 50, amount = 100, info = {}, type = "item", slot = 5, },
 			{ name = "pickaxe",	price = 500, amount = 100, info = {}, type = "item", slot = 6, },
-			{ name = "miningdrill",	price = 25000, amount = 5, info = {}, type = "item", slot = 7, },
+			{ name = "miningdrill",	price = 15000, amount = 5, info = {}, type = "item", slot = 7, },
 			{ name = "mininglaser",	price = 100000, amount = 5, info = {}, type = "item", slot = 8, },
 			{ name = "drillbit", price = 50, amount = 100, info = {}, type = "item", slot = 9, },
 		},
